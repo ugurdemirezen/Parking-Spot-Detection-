@@ -1,0 +1,13 @@
+train: C:/Users/Administrator/PycharmProjects/YoloProjects/car/train/images
+val: C:/Users/Administrator/PycharmProjects/YoloProjects/car/valid/images
+test: C:/Users/Administrator/PycharmProjects/YoloProjects/car/test/images
+
+nc: 4
+names: ['bus', 'car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: vehicle-mscoco
+  project: vehicles-coco
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vehicle-mscoco/vehicles-coco/dataset/1
